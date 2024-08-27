@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="logo__alura">
+        <img src="images.jpg." alt="imagem detetive cripto mail" style="width: 225px; height: auto;">
+        <p class="message">"CRIPTO-MAIL Mensagens Instantaneas e Seguras"</p>
+    </header>
+    <main>
+        <section class="input-output">
+            <div class="left-section">
+                <textarea class="areadetexto" cols="40" rows="9" placeholder="Digite seu texto"></textarea>
+                <div class="botoes">
+                    <button class="botao_encriptar" onclick="btnEncriptar()">CRIPTOGRAFAR</button>
+                    <button class="botao_desencriptar" onclick="btnDesencriptar()">DESCRIPTOGRAFAR</button>
+                </div>
+            </div>
+            <div class="right-section">
+                <textarea class="mensagem sem-imagem" cols="40" rows="9"></textarea>
+                <div class="copiar-container">
+                    <button class="botao_copiar" onclick="copiarTexto()">COPIAR</button>
+                </div>
+            </div>
+        </section>
+    </main>    
+    <footer class="rodape">
+        <div class="bloco1">
+            <p>ALURA</p>
+        </div>
+        <div class="bloco2">
+            <p>Developer by Geovanio Lima</p>
+        </div>
+        <div class="bloco3">
+            <p>ONE - Oracle Next Education   2024</p>
+        </div>
+    </footer>    
+    <script src="script.js"></script>
+</body>
+</html>
