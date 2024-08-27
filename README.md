@@ -1,0 +1,1 @@
+Este projeto foi desenvolvido atraves do aprendizado do Curso da Alura em parceria com One  Oracle Next Education foi meu primeiro site desenvolvido em Javascript, Html e CSS etou muito feliz em conseguir realiza-lo e será o primeiro de muitos, só gratidão aos instrutores e pessoal da Alura e ONE.
